@@ -14,6 +14,13 @@ mások által létrehozott teszteket tudnak kitölteni, hanem saját maguk álta
  - Más felületeken, böngészőkben is könnyen elérhető legyen
  - Izgalmas, szórakoztató legyen a felhasználók számára
 
+1.3 Jelenlegi üzleti folyamatok
+
+Manapság sok oldal van amin kvíz feladatokkat oldhatunk meg. Ezen oldalak próbálnak megoldástokat bisztosítáni arra hogy hogyan oldjuk meg a kvíz feladatokat, de nem járnak sikerrel, mivel nem veszik számításba hogy kiknek akarnak szolni. Nagyon sok kvíz oldal abba a hibába esik hogy mindenkinek megpróbál felelni. Ezért mi csak azokra fogunk fókuszálni akik egy olyan kvíz oldalt keresnek, ahol: 
+  - korlátok nélkül akarnak kérdéseket feltenni
+  - korlátok nélkül válaszolni kvízekere
+  - egy egyszerű felületen akar kérdezni
+
 1.4 Igényelt üzleti folyamatok
 
 - Online felület
