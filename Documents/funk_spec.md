@@ -9,3 +9,8 @@ Ezáltal elérhető egy bizonyos kompetencia a regisztrált felhasználók közt
   - egy guest nem érheti el ezeket
 - regisztrált felhasználók tudnak kérdőíveket csinálni, amik elérhetőek lesznek a többi ember számára is
 - igényes megjelenés
+
+2.2 Feltételek
+
+A weboldal feltétele, hogy html kódon alapuló weblapot kell szerkeszteni. A kinézetett CSS programozási nyelv segítségével kell elérni, míg a funkciók a PHP 
+segítégével fognak megtörténni. A felhasználók adatbázisát a phpMyAdmin software segítségével oldanánk meg. Melyet egy projekt menedzser felületen lesz végre hajtva. Ezen projetc menedzser lesz a Laravel
