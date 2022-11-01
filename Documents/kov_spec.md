@@ -5,6 +5,13 @@
 A weboldal célja az, hogy különböző témákban kvízeket töltsenek ki a felhasználók, ezek megoldásával bővítsék a tudásukat és más felhasználókkal versenyezzenek. Nem csak
 mások által létrehozott teszteket tudnak kitölteni, hanem saját maguk által összerakott tesztsort is létre tudnak hozni. Csak a regisztrált felhasználók tudják kihasználni a weboldal által nyújtott szolgáltatásokat.
 
+1.3 Jelenlegi üzleti folyamatok
+
+Manapság sok oldal van amin kvíz feladatokkat oldhatunk meg. Ezen oldalak próbálnak megoldástokat bisztosítáni arra hogy hogyan oldjuk meg a kvíz feladatokat, de nem járnak sikerrel, mivel nem veszik számításba hogy kiknek akarnak szolni. Nagyon sok kvíz oldal abba a hibába esik hogy mindenkinek megpróbál felelni. Ezért mi csak azokra fogunk fókuszálni akik egy olyan kvíz oldalt keresnek, ahol: 
+  - korlátok nélkül akarnak kérdéseket feltenni
+  - korlátok nélkül válaszolni kvízekere
+  - egy egyszerű felületen akar kérdezni
+
 1.4 Igényelt üzleti folyamatok
 
 - Online felület
