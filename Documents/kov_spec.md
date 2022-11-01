@@ -4,3 +4,13 @@
 
 A weboldal célja az, hogy különböző témákban kvízeket töltsenek ki a felhasználók, ezek megoldásával bővítsék a tudásukat és más felhasználókkal versenyezzenek. Nem csak
 mások által létrehozott teszteket tudnak kitölteni, hanem saját maguk által összerakott tesztsort is létre tudnak hozni. Csak a regisztrált felhasználók tudják kihasználni a weboldal által nyújtott szolgáltatásokat.
+
+1.4 Igényelt üzleti folyamatok
+
+- Online felület
+- Regisztráció lehetősége
+- Adatbázis használata
+  - felhasználók,
+  - pontszámok
+  - kérdőívek eltárolása
+- Kérdőívek csakis regisztráció után elérhetőek, készíthetőek és érhetőek el
