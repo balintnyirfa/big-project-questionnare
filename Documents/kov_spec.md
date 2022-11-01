@@ -9,8 +9,18 @@ mások által létrehozott teszteket tudnak kitölteni, hanem saját maguk álta
 
 - Online felület
 - Regisztráció lehetősége
-- Adatbázis használata
+- Adatbázis használata:
   - felhasználók,
   - pontszámok
   - kérdőívek eltárolása
-- Kérdőívek csakis regisztráció után elérhetőek, készíthetőek és érhetőek el
+- Kérdőívek csakis regisztráció után elérhetőek, készíthetőek és tölthetők ki
+
+1.6 Követelmény lista
+
+- Könnyű rendszerüzemeltethetőség
+- Reszponzív felület
+- Regisztrált felhasználók kezelése
+- Kérdőívet csakis regisztrált felhasználó érheti el, készíthet és tölthet ki
+- Felhasználói profil módosítás:
+  - Email és/vagy jelszó,
+  - Profilkép feltöltés vagy módosítás
