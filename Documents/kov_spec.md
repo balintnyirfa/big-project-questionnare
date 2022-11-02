@@ -31,7 +31,7 @@ Manapság sok oldal van amin kvíz feladatokkat oldhatunk meg. Ezen oldalak pró
   - kérdőívek eltárolása
 - Kérdőívek csakis regisztráció után elérhetőek, készíthetőek és tölthetők ki
 
-1.6 Követelmény lista
+1.5 Követelmény lista
 
 - Könnyű rendszerüzemeltethetőség
 - Reszponzív felület
