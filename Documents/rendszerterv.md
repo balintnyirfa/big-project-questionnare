@@ -14,10 +14,7 @@ A projektet weblapon valósítjuk meg, melynek van egyaránt frontend és backen
 3.3 Üzleti folyamatok modellje
 
 3.4 Követelmények
-A projektet weblapon valósítjuk meg, melynek van egyaránt frontend és backend része. Az egyes feladatokat többségében külön emberek végzik. A frontend fejlesztésére HTML-t és CSS alkalmazunk.
-
-  - A frontend fejlesztők célja hogy egy könnyen átlátható, igényes, felhasználóbarát felületet hozzanak létre.
-  - A backend fejlesztők feladata, a háttérben zajló folyamatok leprogramozása, JavaScript kód megírása, a program helyes működésének biztosítása, és az eredmény           kiértékelése.
+A weboldal létrehozásához HTML/CSS illetve JavaScriptet és PHP-t használtunk. A felépítés és dizájnolás HTML és CSS implementálásával történik. Az oldal teljes értékű felhasználására elegendő egy egyszerű internetes böngészőt indítanunk. A keretrendszer amit használunk a projekthez a Laravel
 
 
 3.5 Funkcionális terv
