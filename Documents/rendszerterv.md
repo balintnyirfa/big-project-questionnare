@@ -14,6 +14,15 @@ A rendszer célja az, hogy a felhasználók különböző tesztek kitöltéséve
 
 3.6 Fizikai környezet
 
+Az alkalmazás webes platformra készült, de más platformokon is működik. A weboldal igénybe vételéhez csupán egy internetes böngészőre van szükségünk.
+
+  - Van tűzfal a hálózaton, és minden portot engedélyez.
+  - Nincsenek megvásárolt komponenseink
+  - Fejlesztői eszközök:
+    - phpMyAdmin
+    - Visual Studio Code
+    - Figma
+
 3.7 Adatbázis terv
 
 3.8 Tesztterv
@@ -23,3 +32,6 @@ A rendszer célja az, hogy a felhasználók különböző tesztek kitöltéséve
 3.10 Implementációs terv
 
 3.11 Karbantartási terv
+
+- A weboldal frissítési jogát fenntartjuk.
+- Az oldal helyes működésének heti rendszerességgel történő ellenőrzése.
