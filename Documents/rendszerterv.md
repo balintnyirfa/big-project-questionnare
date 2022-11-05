@@ -29,6 +29,7 @@ Az alkalmazás webes platformra készült, de más platformokon is működik. A 
     - phpMyAdmin
     - Visual Studio Code
     - Figma
+    - Laravel
 
 3.7 Adatbázis terv
 
