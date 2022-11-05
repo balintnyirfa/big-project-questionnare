@@ -28,6 +28,7 @@ Az alkalmazás webes platformra készült, de más platformokon is működik. A 
 3.8 Tesztterv
 
 3.9 Telepítési terv
+Nem szükséges telepítés, böngészőből minden eszközön futtatható.
 
 3.10 Implementációs terv
 
