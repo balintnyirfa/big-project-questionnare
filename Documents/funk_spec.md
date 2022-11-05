@@ -23,8 +23,6 @@ Felhasználó:
   - megtekintheti a főoldalt, a kvízeket
   - létrehozhat kvízeket, és ki is tölthet mások által feltöltött kvízt is
   - tud képet feltölteni, jelszót módosítani
-Admin:
-  - felhasználókat ki tudja listázni, törölni
 
 2.4 Forgatókönyvek
 
