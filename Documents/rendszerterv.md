@@ -28,9 +28,14 @@ Az alkalmazás webes platformra készült, de más platformokon is működik. A 
 3.8 Tesztterv
 
 3.9 Telepítési terv
+
 Nem szükséges telepítés, böngészőből minden eszközön futtatható.
 
 3.10 Implementációs terv
+
+A Webes felület főként HTML, CSS, és Javascript nyelven fog készülni.	
+Ezeket a technológiákat amennyire csak lehet külön fájlokba írva készítjük, és
+úgy fogjuk egymáshoz csatolni a jobb átláthatóság érdekében 
 
 3.11 Karbantartási terv
 
