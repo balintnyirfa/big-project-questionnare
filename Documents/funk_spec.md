@@ -25,3 +25,7 @@ Felhasználó:
   - tud képet feltölteni, jelszót módosítani
 Admin:
   - felhasználókat ki tudja listázni, törölni
+
+2.4 Forgatókönyvek
+
+Bejelentkezés után a felhasználó teszteket tud kitölteni, ezeknek az összpontszáma megtekinthető a felhasználó profilján. A felhasználó tud kvízeket létrehozni esetlegesen módosítani azokat. 
