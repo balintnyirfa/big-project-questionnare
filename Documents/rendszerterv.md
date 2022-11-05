@@ -27,6 +27,11 @@ Az alkalmazás webes platformra készült, de más platformokon is működik. A 
 
 3.8 Tesztterv
 
+A teszt elsődleges célja: az eddig meglévő funkcióknak a különböző
+böngészőkkel való kompatibilitásának tesztelése.
+  1.Teszt: Metódusok megfelelően működnek-e
+  2.Teszt: Különböző böngészőkkel való tesztelés (Edge, Google Chrome).
+
 3.9 Telepítési terv
 
 Nem szükséges telepítés, böngészőből minden eszközön futtatható.
