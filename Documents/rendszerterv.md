@@ -18,6 +18,8 @@ A weboldal létrehozásához HTML/CSS illetve JavaScriptet és PHP-t használtun
 
 
 3.5 Funkcionális terv
+Rendszerszereplők:
+  - Felhasználó: Ó az egyetlen szereplő, hiszen ő hozz létre kérdőívet és tölti is ki más felhasználók kérdőívét is.
 
 3.6 Fizikai környezet
 
