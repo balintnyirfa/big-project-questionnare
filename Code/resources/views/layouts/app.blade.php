@@ -60,11 +60,11 @@
 
                 <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
                     <ul class="nav navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link" href="">Valami</a>
+                        <li class="nav-item" style="width: 30px; margin: 0px 10px;">
+                            <p style="color: rgba(0, 0, 0, 0);">Valami</p>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="">Valami</a>
+                        <li class="nav-item" style="width: 30px; margin: 0px 10px;">
+                            <p style="color: rgba(0, 0, 0, 0);">Valami</p>
                         </li>
                     </ul>
                     <a class="navbar-brand m-0">Testlux</a>
@@ -72,13 +72,13 @@
                         <!-- Authentication Links -->
                         @guest
                             @if (Route::has('login'))
-                                <li class="nav-item">
+                                <li class="nav-item" style="width: 30px; margin: 0px 10px;">
                                     <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
                                 </li>
                             @endif
 
                             @if (Route::has('register'))
-                                <li class="nav-item">
+                                <li class="nav-item" style="width: 30px; margin: 0px 10px;">
                                     <a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a>
                                 </li>
                             @endif
