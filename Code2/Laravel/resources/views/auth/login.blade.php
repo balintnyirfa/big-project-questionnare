@@ -41,7 +41,7 @@
 
                         <div class="row mb-0 d-flex justify-content-center">
                             <div class="col-md-8 d-flex justify-content-center">
-                                <button type="submit"  style="background-color: rgba(137,137,137,50%); border-radius: 24px; box-shadow: none; border: none; color: white; padding: 5px 15px; text-transform: uppercase;">
+                                <button type="submit" style="background-color: rgba(137,137,137,50%); border-radius: 24px; box-shadow: none; border: none; color: white; padding: 5px 15px; text-transform: uppercase;">
                                     {{ __('Login') }}
                                 </button>
                             </div>
