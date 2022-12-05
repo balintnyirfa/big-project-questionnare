@@ -12,6 +12,7 @@ A projektet weblapon valósítjuk meg, melynek van egyaránt frontend és backen
 
 
 3.3 Üzleti folyamatok modellje
+![My Image](Képernyőtervek/uzleti.png)
 
 3.4 Követelmények
 A weboldal létrehozásához HTML/CSS illetve JavaScriptet és PHP-t használtunk. A felépítés és dizájnolás HTML és CSS implementálásával történik. Az oldal teljes értékű felhasználására elegendő egy egyszerű internetes böngészőt indítanunk. A keretrendszer amit használunk a projekthez a Laravel
