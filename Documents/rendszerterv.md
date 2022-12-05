@@ -44,9 +44,8 @@ Az alkalmazás webes platformra készült, de más platformokon is működik. A 
 
 A teszt elsődleges célja: az eddig meglévő funkcióknak a különböző böngészőkkel való kompatibilitásának tesztelése.
 
-  1.Teszt: Metódusok megfelelően működnek-e
-  
-  2.Teszt: Különböző böngészőkkel való tesztelés (Edge, Google Chrome).
+  - Metódusok megfelelően működnek-e
+  - Különböző böngészőkkel való tesztelés (Edge, Google Chrome).
 
 3.9 Telepítési terv
 
