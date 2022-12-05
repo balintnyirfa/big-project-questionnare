@@ -12,9 +12,11 @@ A projektet weblapon valósítjuk meg, melynek van egyaránt frontend és backen
 
 
 3.3 Üzleti folyamatok modellje
+
 ![My Image](Képernyőtervek/uzleti.png)
 
 3.4 Követelmények
+
 A weboldal létrehozásához HTML/CSS illetve JavaScriptet és PHP-t használtunk. A felépítés és dizájnolás HTML és CSS implementálásával történik. Az oldal teljes értékű felhasználására elegendő egy egyszerű internetes böngészőt indítanunk. A keretrendszer amit használunk a projekthez a Laravel
 
 
@@ -40,10 +42,10 @@ Az alkalmazás webes platformra készült, de más platformokon is működik. A 
 
 3.8 Tesztterv
 
-A teszt elsődleges célja: az eddig meglévő funkcióknak a különböző
-böngészőkkel való kompatibilitásának tesztelése.
-  1.Teszt: Metódusok megfelelően működnek-e
-  2.Teszt: Különböző böngészőkkel való tesztelés (Edge, Google Chrome).
+A teszt elsődleges célja: az eddig meglévő funkcióknak a különböző böngészőkkel való kompatibilitásának tesztelése.
+
+  - Metódusok megfelelően működnek-e
+  - Különböző böngészőkkel való tesztelés (Edge, Google Chrome).
 
 3.9 Telepítési terv
 
