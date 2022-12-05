@@ -26,3 +26,11 @@ Felhasználó:
 
 Ha kérdezőként regisztrált be a felhasználó, akkor bejelentkezés után létrehozhat új kérdőíveket. Három fajta kérdőívet tud létrehozni: lehet igaz-hamis, szabadválaszos illetve megadott válaszos kérdőív. A felhasználónak van lehetősége válaszolóként regisztrálni, ilyenkor csak kitölteni tudja a már létrehozott kérdőíveket.
 A kérdőívek bejelentkezés nélkül is kitölthetőek. 
+
+2.5 Képernyőtervek
+
+  2.5.1 Login
+  
+  ![My Image](Képernyőtervek/Log.png)
+  
+  
