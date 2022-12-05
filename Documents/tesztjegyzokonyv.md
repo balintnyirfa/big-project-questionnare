@@ -1,3 +1,3 @@
 Login tesztek:
 
-  ![My Image](Képernyőtervek/Log.png)
+  ![My Image](Tesztjegyzőkönyvek/login.png)
