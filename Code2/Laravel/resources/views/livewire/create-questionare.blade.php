@@ -1,9 +1,9 @@
 @if (!$success)
     
-<div>
-    <div class="d-flex justify-content-center mb-5">
-        <h2 class="mx-1 ">Kérdőív neve: </h2>
-        <input type="text" wire:model="questionareName">
+<div style="padding: 15px; background-color: rgba(137, 137, 137, 50%) !important; color: white; border-radius: 24px;">
+    <div class="row mb-3 mx-auto d-flex flex-column align-items-start">
+        <h2 style="padding: 0;">Kérdőív neve: </h2>
+        <input type="text" style="height: 35px;" wire:model="questionareName">
     </div>
     <div>
         <h2>Kérdések:</h2>
@@ -23,67 +23,18 @@
                         <td>{{ $rowAnswer }}</td>
                     @endforeach
                 @endisset
-                <td>
-                    <button type="button" class="btn btn-default" aria-label="Modosítás" wire:click="updateClick({{$row[0]}})">
-                        <i class=" bi-pencil-square"></i>
-                    </button>
-                </td>
             </tr>
             @empty
-                <p class="text-warning fst-italic font-monospace">Még nem adtál hozzá kérdést!</p>
+                <p class="font-monospace">Adj hozzá kérdést!</p>
             @endforelse
             
         </table>
     </div>
     <div class="d-flex justify-content-around">
-        <button class="button btn-secondary {{ $questionSubtyp == 'Válaszokkal' ? 'disable' : ''  }}" wire:click="withAnswerbtn">Megadott válaszok</button>
-        <button class="button btn-secondary {{ $questionSubtyp == 'Szabadszavas' ? 'disable' : ''  }}" wire:click="freeAnswerBtn">Szabad szavas</button>
-        <button class="button btn-secondary {{ $questionSubtyp == 'Igaz-hamis' ? 'disable' : ''  }}" wire:click="trueFalseBtn">Igaz-Hamis</button>
+        <button style="background-color: rgba(137,137,137,50%); margin: 2px; box-shadow: none; border: none; color: white; padding: 5px 15px; text-transform: uppercase;" class="{{ $questionSubtyp == 'Szabadszavas' ? 'disable' : ''  }}" wire:click="freeAnswerBtn">Szabad szavas</button>
+        <button style="background-color: rgba(137,137,137,50%); margin: 2px; box-shadow: none; border: none; color: white; padding: 5px 15px; text-transform: uppercase;" class="{{ $questionSubtyp == 'Igaz-hamis' ? 'disable' : ''  }}" wire:click="trueFalseBtn">Igaz-Hamis</button>
     </div>
-    @if($questionSubtyp == 'Válaszokkal')
-        <h2>Új több válaszos kérdés:</h2>
-        <div class="">
-            <table class="table table-striped mb-5 mt-2 border-bottom border-secondary ">
-                @forelse ($answers as $answer)
-                <tr>
-                    <td>{{$answer}}</td>
-                    <td>
-                        <button type="button" class="btn btn-default" aria-label="Modosítás" wire:click="updateAnswer({{$answer}})">
-                            <i class=" bi-pencil-square"></i>
-                        </button>
-                    </td>
-                    <td>
-                        <button type="button" class="btn btn-default" aria-label="Törlés" wire:click="deleteAnswer({{$answer}})">
-                            <i class="bi-trash"></i>
-                        </button>
-                    </td>
-                </tr>
-                @empty
-                    <p class="text-warning fst-italic font-monospace">Még nem adtál hozzá választ!</p>
-                @endforelse
-                
-            </table>
-
-            <input type="text" wire:model="newQuestion">
-            <select wire:model="typ">
-                <option value="unset">Kérjük válassz típust!</option>
-                <option value="knowledge">Tudás</option>
-                <option value="question">Kérdés</option>    
-            </select>
-
-        </div>    
-        <h3>Válaszok</h3>
-        <div class="d-flex justify-content-around">
-            <input type="text" wire:model="answer">
-            <div >
-                <button wire:click="addAnswer" class="button btn-secondary mx-5">Válaszlehetőség hozzádása</button>
-            </div>
-        </div>
-        <div >
-            <button wire:click="addAnswerRow" class="button btn-secondary mx-5">Új sor</button>
-        </div>
-    @endif
-
+    
     @if ($questionSubtyp == 'Szabadszavas')
         <div>
             <h2>Új Szabadválaszos kérdés:</h2>
@@ -97,7 +48,7 @@
                 </select>
             
                 <div >
-                    <button wire:click="addRow" class="button btn-secondary mx-5">Új sor</button>
+                    <button style="background-color: rgba(137,137,137,50%); margin: 2px; box-shadow: none; border: none; color: white; padding: 5px 15px; text-transform: uppercase;" wire:click="addRow" class="button btn-secondary mx-5">Új sor</button>
                 </div>
             </div>
         </div>
@@ -116,14 +67,14 @@
                 </select>
             
                 <div >
-                    <button wire:click="addRow" class="button btn-secondary mx-5">Új sor</button>
+                    <button style="background-color: rgba(137,137,137,50%); margin: 2px; box-shadow: none; border: none; color: white; padding: 5px 15px; text-transform: uppercase;" wire:click="addRow" class="button btn-secondary mx-5">Új sor</button>
                 </div>
             </div>
             
         </div>
     @endif
     <div class="d-flex justify-content-center">
-        <button wire:click="saveQuestionare" class="button btn-primary mt-5 " {{ $questionareName && $questions ? '' : 'disabled'}}>Mentés</button>
+        <button style="background-color: rgba(137,137,137,50%); border-radius: 24px; box-shadow: none; border: none; color: white; padding: 5px 15px; text-transform: uppercase;" wire:click="saveQuestionare" class="button btn-primary mt-5 " {{ $questionareName && $questions ? '' : 'disabled' }}>Mentés</button>
     </div>
 </div>
 @endif
