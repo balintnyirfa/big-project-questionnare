@@ -17,28 +17,50 @@
     <!-- Styles -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <style>
+        html{
+            height: 100%;
+        }
+        @media only screen and (min-width: 1200px){
+            .befogo{
+                width: 75%;
+            }
+        }
+
+        @media only screen and (min-width: 992px){
+            .befogo{
+                width: 75%;
+            }
+        }
+
+        @media only screen and (max-width: 768px){
+            .befogo{
+                width: 100%;
+            }
+        }
+
+        @media only screen and (max-width: 600px){
+            .befogo{
+                width: 100%;
+            }
+        }
+    </style>
     @livewireStyles
 </head>
-<body class="bg-light">
+<body style="background: linear-gradient(150.32deg, #C86FFF 0%, #C586FF 18.62%, #C19DFF 35.17%, #BEB4FF 53.27%, #BACAFF 71.37%, #B7E1FF 84.3%, #B3F8FF 99.3%) !important; background-size: cover; background-repeat: no-repeat;">
     @livewireScripts
     <div id="app">
-        <nav class="navbar navbar-expand-md navbar-white bg-dark shadow-sm" style="position: fixed; top: 0; width: 100%; z-index: 1;">
+        <nav class="navbar navbar-expand-lg bg-light navbar-dark sticky-top" style="background-color: rgba(137, 137, 137, 50%) !important; border-radius: 0px 0px 24px 24px;">
             <div class="container-fluid">
-                <a class="navbar-brand" href="{{ url('/') }}">
-                    {{ config('app.name', 'Laravel') }}
-                </a>
+                <a class="navbar-brand d-lg-none" href="{{ url('/') }}">Textlux</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <!-- Left Side Of Navbar -->
-                    <ul class="navbar-nav mr-auto">
-
-                    </ul>
-
-                    <!-- Right Side Of Navbar -->
-                    <ul class="navbar-nav ml-auto">
+                <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
+                    <a class="navbar-brand m-0">Testlux</a>
+                    <ul class="nav navbar-nav">
                         <!-- Authentication Links -->
                         @guest
                             @if (Route::has('login'))
