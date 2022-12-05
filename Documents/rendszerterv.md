@@ -19,7 +19,9 @@ A weboldal létrehozásához HTML/CSS illetve JavaScriptet és PHP-t használtun
 
 3.5 Funkcionális terv
 Rendszerszereplők:
-  - Felhasználó: Ó az egyetlen szereplő, hiszen ő hozz létre kérdőívet és tölti is ki más felhasználók kérdőívét is.
+  - Felhasználó: kérdezőként és válaszolóként lehet regisztrálni. Kérdezőként létrehozhat új kérdőíveket, emellett kérdőíveket is tud kitölteni. Válaszolóként csak 
+    kérdőíveket tud kitölteni.
+  - Vendég: kérdőíveket tud kitölteni.
 
 3.6 Fizikai környezet
 
