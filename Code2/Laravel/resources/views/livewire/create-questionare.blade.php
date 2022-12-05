@@ -80,10 +80,10 @@
 @endif
 
 @if($success)
-<div>
+<div style="padding: 15px; background-color: rgba(137, 137, 137, 50%) !important; color: white; border-radius: 24px;">
     <h2>Sikeres feltöltés!</h2>
-    <button class="button btn-secondary" wire:click="setNew">Új kérdőív</button>
-    <button class="button btn-primary" wire:click="toHome">Kezdőlap</button>
+    <button style="background-color: rgba(137,137,137,50%); border-radius: 24px; box-shadow: none; border: none; color: white; padding: 5px 15px; text-transform: uppercase;" wire:click="setNew">Új kérdőív</button>
+    <button style="background-color: rgba(79, 79, 79,50%); border-radius: 24px; box-shadow: none; border: none; color: white; padding: 5px 15px; text-transform: uppercase;" wire:click="toHome">Kezdőlap</button>
 </div>
 @endif
 

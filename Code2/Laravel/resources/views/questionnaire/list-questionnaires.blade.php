@@ -8,14 +8,14 @@
 <div class="content">
   <div class="row row-cols-2 row-cols-lg-5 justify-content-center ">
     @foreach($questionnaires as $questionnaire)
-      <div class="card p-4" style="background-color: skyblue; width: 20%; margin: 1rem 0.5rem 1rem 0.5rem;">
+      <div class="card p-4" style="padding: 15px; background-color: rgba(137, 137, 137, 50%) !important; color: white; border-radius: 24px; width: 230px; margin: 10px;">
         <h5 class="card-title">
             {{ $questionnaire->name }}
         </h5>
         <p class="card-text">
             {{ $questionnaire->description }}
         </p>
-        <a href="/questionnaire/{{ $questionnaire->id }}" class="btn btn-primary " style="display: flex; justify-content: center;">Kitöltés</a>
+        <a href="/questionnaire/{{ $questionnaire->id }}" style="background-color: rgba(137,137,137,50%); border-radius: 24px; box-shadow: none; border: none; color: white; padding: 5px 15px; text-transform: uppercase; display: flex; justify-content: center; text-decoration: none;">Kitöltés</a>
       </div>
       @endforeach
     
