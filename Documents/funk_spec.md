@@ -17,12 +17,12 @@ segítégével fognak megtörténni. A felhasználók adatbázisát a phpMyAdmin
 2.3 Használati esetek
 
 Vendég:
-  - megtekintheti a főoldalt, de nincs jogosultsága a kvízek kitöltéséhez és létrehozásához, regisztráció szükséges
+  - kitöltheti a feltöltött kérdőíveket
+  - regisztrálhat kérdezőként, vagy válaszolóként
 Felhasználó:
-  - megtekintheti a főoldalt, a kvízeket
   - létrehozhat kvízeket, és ki is tölthet mások által feltöltött kvízt is
-  - tud képet feltölteni, jelszót módosítani
 
 2.4 Forgatókönyvek
 
-Bejelentkezés után a felhasználó teszteket tud kitölteni, ezeknek az összpontszáma megtekinthető a felhasználó profilján. A felhasználó tud kvízeket létrehozni esetlegesen módosítani azokat. 
+Ha kérdezőként regisztrált be a felhasználó, akkor bejelentkezés után létrehozhat új kérdőíveket. Három fajta kérdőívet tud létrehozni: lehet igaz-hamis, szabadválaszos illetve megadott válaszos kérdőív. A felhasználónak van lehetősége válaszolóként regisztrálni, ilyenkor csak kitölteni tudja a már létrehozott kérdőíveket.
+A kérdőívek bejelentkezés nélkül is kitölthetőek. 
