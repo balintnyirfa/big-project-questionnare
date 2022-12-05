@@ -12,6 +12,7 @@ A projektet weblapon valósítjuk meg, melynek van egyaránt frontend és backen
 
 
 3.3 Üzleti folyamatok modellje
+
 ![My Image](Képernyőtervek/uzleti.png)
 
 3.4 Követelmények
