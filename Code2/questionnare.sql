@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Gép: 127.0.0.1
--- Létrehozás ideje: 2022. Dec 04. 20:14
+-- Létrehozás ideje: 2022. Dec 05. 22:22
 -- Kiszolgáló verziója: 10.4.27-MariaDB
 -- PHP verzió: 8.1.12
 
@@ -72,7 +72,11 @@ CREATE TABLE `questions` (
 --
 
 CREATE TABLE `table_answer_list` (
-  `id` int(11) NOT NULL
+  `id` int(11) NOT NULL,
+  `questions_id` int(11) NOT NULL,
+  `answer` varchar(250) NOT NULL,
+  `updated_at` date NOT NULL,
+  `created_at` date NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 -- --------------------------------------------------------
@@ -134,19 +138,19 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT a táblához `answers`
 --
 ALTER TABLE `answers`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
 
 --
 -- AUTO_INCREMENT a táblához `questionnaire`
 --
 ALTER TABLE `questionnaire`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
 
 --
 -- AUTO_INCREMENT a táblához `questions`
 --
 ALTER TABLE `questions`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
 
 --
 -- AUTO_INCREMENT a táblához `table_answer_list`
@@ -158,7 +162,7 @@ ALTER TABLE `table_answer_list`
 -- AUTO_INCREMENT a táblához `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
