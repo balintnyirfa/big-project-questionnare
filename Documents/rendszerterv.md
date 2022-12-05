@@ -40,6 +40,8 @@ Az alkalmazás webes platformra készült, de más platformokon is működik. A 
 
 3.7 Adatbázis terv
 
+![My Image](Képernyőtervek/adat.png)
+
 3.8 Tesztterv
 
 A teszt elsődleges célja: az eddig meglévő funkcióknak a különböző böngészőkkel való kompatibilitásának tesztelése.
