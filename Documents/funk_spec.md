@@ -35,3 +35,8 @@ A kérdőívek bejelentkezés nélkül is kitölthetőek.
   ![My Image](Képernyőtervek/Log.png)
   
   
+  2.5.3 Kérdőív
+  
+  ![My Image](Képernyőtervek/quiz.png)
+  
+  
