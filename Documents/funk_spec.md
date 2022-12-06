@@ -42,4 +42,6 @@ A kérdőívek bejelentkezés nélkül is kitölthetőek.
    
   ![My Image](Képernyőtervek/quiz.png)
 
-
+  2.5.4 Kérdés
+   
+  ![My Image](Képernyőtervek/question.png)
