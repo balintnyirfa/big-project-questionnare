@@ -34,6 +34,6 @@ A kérdőívek bejelentkezés nélkül is kitölthetőek.
   
   ![My Image](Képernyőtervek/Log.png)
   
-   2.5.2 Login
+   2.5.2 Regisztráció
    
   ![My Image](Képernyőtervek/Reg.png)
